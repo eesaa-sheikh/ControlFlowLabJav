@@ -2,8 +2,8 @@ import java.util.Random; //Importing number randomiser
 import java.util.Scanner; // User input
 public class NumGen {
     public static void main(String[] args) {
-        Random Rand = new Random();
-        int random = Rand.nextInt(5) + 1;
+        Random mad = new Random();
+        int random = mad.nextInt(5) + 1;
         System.out.println("Welcome to this new guessing game!");
         System.out.println("Are you ready?");
 
